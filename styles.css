@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('fonts/circe.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/circe.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+font-family: 'Rodchenko';
+
+    src:    url('https://nomail.com.ua/files/eot/4f92ce49d3e9bb369d836662431a8194.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/4f92ce49d3e9bb369d836662431a8194.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/4f92ce49d3e9bb369d836662431a8194.woff2') format('woff2');
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+}
+
+body {
+    font-family: 'RodchenkoCTT', sans-serif;
+	margin: 0;
+    padding: 0;
+	width: 100%;
+	height: auto;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+header {
+	padding-top: 2%;
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+}
+
+.nav {
+	width: 60%;
+	display: inline-flex;
+    align-items: center;
+}
+
+.nav_button {
+	margin-left: 5%;
+	font-family: Circe, serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+.tel {
+	display: inline-flex;
+	align-items: center;
+	width: 40%;
+}
+
+.tel_number {
+	margin-left: 15%;
+	font-family: Circe, serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.container {
+	height: auto;
+	width: 100%;
+	display: flex;
+}
+
+.greybox {
+	background-color: #eeedf3;
+	display: flex;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 633px;
+	height: 597px;
+	margin: 188px 801px 0 6px;
+}
+
+.greybox_inner {
+	writing-mode: vertical-lr;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	width: inherit;
+	margin: 0 0 0 3%;
+	text-align: center;
+}
+
+.redbox {
+	width: 524px;
+	height: 495px;
+	margin: 258px 761px 0 155px;
+	position: absolute;
+	background-color: #c12b2b;
+}
+
+.main_photo {
+	width: 450px;
+	height: auto;
+	margin: 130px 774px 0 216px;
+	position: absolute;
+	z-index: +1;
+}
+
+.info {
+	flex-direction: column;
+	display: flex;
+	height: auto;
+	width: 100%;
+}
+
+.name {
+	text-align: center;
+    display: flex;
+    margin: 262px auto 0 727px;
+    width: auto;
+    height: auto;
+    font-size: 72px;
+    letter-spacing: 1px;
+    font-family: Rodchenko, sans-serif;
+}
+
+.line {
+	width: 67px;
+	height: 2px;
+	border-bottom: 1px solid #000000;
+	margin: 346px auto auto 728px;
+}
+
+.profession {
+
+}
+
+.profession_inner {
+	font-family: Circe, sans-serif;
+}
