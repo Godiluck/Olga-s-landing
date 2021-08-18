@@ -45,9 +45,8 @@ header {
 
 .nav_button {
 	margin-left: 5%;
-	font-family: Circe, serif;
-	font-weight: bold;
-	font-size: 16px;
+	font-family: Circe, sans-serif;
+	font-size: 19px;
 	text-decoration: none;
 	color: black;
 }
@@ -71,6 +70,7 @@ header {
 	height: auto;
 	width: 100%;
 	display: flex;
+	margin-bottom: 100px;
 }
 
 .greybox {
@@ -114,12 +114,13 @@ header {
 	display: flex;
 	height: auto;
 	width: 100%;
+	margin-left: 727px;
 }
 
 .name {
 	text-align: center;
     display: flex;
-    margin: 262px auto 0 727px;
+    margin: 262px auto 0 0;
     width: auto;
     height: auto;
     font-size: 72px;
@@ -131,13 +132,54 @@ header {
 	width: 67px;
 	height: 2px;
 	border-bottom: 1px solid #000000;
-	margin: 346px auto auto 728px;
+	margin: 15px 20px auto 9px;
 }
 
 .profession {
-
+	display: flex;
 }
 
 .profession_inner {
 	font-family: Circe, sans-serif;
+	font-size: 25px;
+}
+
+.aboutme {
+	display: flex;
+	flex-direction: column;
+	margin-left: 96px;
+	margin-top: 35px;
+}
+
+.area {
+	font-family: Rodchenko, sans-serif;
+	font-size: 30px;
+	line-height: 48px;
+}
+
+.exp {
+	font-family: Circe, sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.contact_button {
+	width: 262px;
+	height: 47px;
+	background-color: #c12b2b;
+	font-family: Circe, sans-serif;
+	font-size: 16px;
+	color: #f4f4f4;
+	border: none;
+	margin-top: 35px;
+}
+
+.contact_logos {
+	margin: 365px 40px auto 20px;
+}
+
+.contact_logos_inner {
+	width: 31px;
+	margin-bottom: 20px;
+	height: 31px;
 }
