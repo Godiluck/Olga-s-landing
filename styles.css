@@ -69,7 +69,6 @@ header {
 .container {
 	height: auto;
 	width: 100%;
-	display: flex;
 	margin-bottom: 100px;
 }
 
@@ -115,6 +114,7 @@ header {
 	height: auto;
 	width: 100%;
 	margin-left: 727px;
+	margin-bottom: 130px;
 }
 
 .name {
@@ -182,4 +182,118 @@ header {
 	width: 31px;
 	margin-bottom: 20px;
 	height: 31px;
+}
+
+.dots {
+	position: absolute;
+	z-index: -1;
+}
+
+.service {
+	color: #171717;
+	font-size: 48px;
+	margin-left: 90px;
+	width: 100%;
+	height: auto;
+	font-family: Rodchenko, sans-serif;
+	text-transform: uppercase;
+}
+
+.red_color {
+	color: #c12b2b;
+}
+
+.blocks {
+	justify-content: space-evenly;
+	display: flex;
+	text-align: center;
+}
+
+.block {
+	margin-top: 188px;
+	width: 462px;
+	height: 919px;
+	box-shadow: 0 0 7px rgba(193, 43, 43, 0.25);
+}
+
+.block_logo {
+	size: 158px;
+	margin: -79px 0 28px 0;
+}
+
+.block_headline {
+	font-family: Rodchenko, sans-serif;
+	font-size: 36px;
+	margin-bottom: 32px;
+}
+
+.block_service_list {
+	font-size: 16px;
+	text-align: left;
+	margin: 0 40px 0 40px;
+	line-height: 30px;
+}
+
+.block_text {
+	list-style-image: url("images/Bricks.png");
+}
+
+.block_bottom {
+	box-shadow: 0 0 7px rgba(193, 43, 43, 0.25);
+	height: 60px;
+}
+
+.scroll {
+	margin: 101px 0 0 26px;
+}
+
+.dots_large {
+	position: absolute;
+	z-index: -1;
+	width: 325px;
+	height: 236px;
+}
+
+.scroll_parts {
+    margin-top: 128px;
+}
+
+.scroll_part {
+	width: 100%;
+	height: auto;
+	display: flex;
+
+}
+
+.scroll_photo {
+	width: 561px;
+	height: 764px;
+	position: absolute;
+	margin: 23px 0 0 83px;
+}
+
+.rectangle {
+    width: 262px;
+    height: 637px;
+    background-color: #c12b2b;
+	margin-left: 397px;
+	margin-right: 0;
+}
+
+.h_line {
+	background-color: #c12b2b;
+	height: inherit;
+	width: 4px;
+
+}
+
+.number {
+	position: absolute;
+	margin: 21px 0 0 726px;
+}
+
+.scroll_headline {
+	font-family: Rodchenko, sans-serif;
+	font-size: 24px;
+	margin: 158px 0 0 68px;
 }
