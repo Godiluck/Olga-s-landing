@@ -3,9 +3,11 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Olga Selimova</title>
+    <script src="script.js"></script>
 </head>
 <body>
      <!-- Шапка (ссылки и номера телефонов -->
@@ -50,7 +52,7 @@
                 <a href="#"><img class="contact_logos_inner" src="images/Viber.png" alt="Viber"></a>
             </div>
         </div>
-        <!-- Конец 1-го блока & начало 2-го -->
+        <!-- 2-й блок -->
         <div class="container">
             <img src="images/Dots.png" alt="" class="dots">
             <h2 class="service">
@@ -84,8 +86,8 @@
                         </ul>
                     </div>
                     <div class="block_bottom">
-                        <p class="price"></p>
-                        <button class="get_consult"></button>
+                        <p class="price">От 150 000 р.</p>
+                        <button class="get_consult">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
                     </div>
                 </div>
                 <div class="block">
@@ -106,13 +108,13 @@
                         </ul>
                     </div>
                     <div class="block_bottom">
-                        <p class="price"></p>
-                        <button class="get_consult"></button>
+                        <p class="price">От 70 000 р.</p>
+                        <button class="get_consult">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Конец 2-го блока & начало 3-го -->
+        <!-- 3-й блок -->
         <div class="container">
             <img src="images/Dots.png" alt="" class="dots">
             <h2 class="service">
@@ -120,62 +122,545 @@
                 продадите квартиру выгодно?
             </h2>
             <div class="scroll">
-                <img src="images/Dots.png" alt="" class="dots_large">
                 <div class="scroll_parts">
+                    <!-- 1 пункт -->
                     <div class="scroll_part">
+                        <div class="v_separator"></div>
+                        <img src="images/Dots.png" alt="" class="dots_large">
                         <img src="images/scroll_photo_1.png" alt="" class="scroll_photo">
                         <div class="rectangle"></div>
-                        <img src="images/01.png" alt="" class="number">
+                            <div class="broken_line_1">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                            <div class="broken_line_2" style="margin: 34.1% 0 0 44.8%;">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                        <div class="scroll_text">
+                            <img src="images/01.png" alt="" class="number">
                         <h3 class="scroll_headline">
                             СО МНОЙ ВЫ ТОЧНО ПРОДАДИТЕ КВАРТИРУ <br>
-                            ПО МАКСИМАЛЬНОЙ ЦЕНЕ</h3>
+                            ПО МАКСИМАЛЬНОЙ ЦЕНЕ
+                        </h3>
                         <div class="scroll_question">
-                            <h5 class="question">Вы спросите почему?</h5>
-                            <p class="question_inner"></p>
+                            <h5 class="question">ВЫ СПРОСИТЕ ПОЧЕМУ?</h5>
+                            <p class="question_inner">
+                                Потому что у нас с Вами одинаковая цель - продать квартиру <br>
+                                по максимальной цене! <br>
+                                <br>
+                                Моя комиссия в процентах, а это значит что чем дороже <br>
+                                я продам квартиру, тем больше заработаю. Все очень просто!
+                            </p>
                         </div>
                         <div class="scroll_answer">
-                            <h5 class="answer">Вы спросите почему?</h5>
-                            <p class="answer_inner"></p>
+                            <h5 class="answer">ВОТ ЧТО Я ДЛЯ ЭТОГО СДЕЛАЮ:</h5>
+                            <ul class="answer_list">
+                                <li class="answer_point">
+                                    Помогу качественно подготовить квартиру к продаже, размещу <br>
+                                    рекламу минимум на 50 сайтов и баннер для наружной рекламы <br>
+                                    чтобы привлечь Ваших соседе по району.
+                                </li>
+                                <li class="answer_point">
+                                    Обеспечу своевременные показы квартиры с присутствием моего <br>
+                                    эксперта по продажам, чтобы именно продавать Вашу квартиру, <br>
+                                    а не просто показывать её. Продавать, это значит скрывать то, <br>
+                                    что мешает продаже, и выставлять в выгодном свете все плюсы <br>
+                                    Вашей квартиры.
+                                </li>
+                                <li class="answer_point">
+                                    Использую собственные стратегии продаж и ведения переговоров, <br>
+                                    которые я лично разработала за всё время работы.
+                                </li>
+                                <li class="answer_point">
+                                    Буду на связи 7 дней в неделю с 8.00 до 23.00 чтобы точно принять <br>
+                                    все звонки от покупателей.
+                                </li>
+                                <li class="answer_point">
+                                    Я точно знаю, как думают покупатели и умею видеть рынок их глазами.
+                                </li>
+                                <li class="answer_point">
+                                    Мне нравится продавать дорого! Это дело принципа, так как я <br>
+                                    с 17 лет работаю в продажах.
+                                </li>
+                            </ul>
                         </div>
+                       </div>
                     </div>
+                    <!-- 2 пункт -->
                     <div class="scroll_part">
+                        <div class="v_separator"></div>
+                        <img src="images/Dots.png" alt="" class="dots_large">
                         <img src="images/scroll_photo_2.png" alt="" class="scroll_photo">
                         <div class="rectangle"></div>
-                        <img src="images/02.png" alt="" class="number">
+                            <div class="broken_line_1">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                            <div class="broken_line_2" style="margin: 35.4% 0 0 44.8%;">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                       <div class="scroll_text">
+                            <img src="images/02.png" alt="" class="number">
                         <h3 class="scroll_headline">
                             ВАША СДЕЛКА ГАРАНТИРОВАННО <br>
                             ПРОЙДЕТ БЕЗОПАСНО
                         </h3>
                         <div class="scroll_question">
-                            <h5 class="question">Вы спросите почему?</h5>
-                            <p class="question_inner"></p>
+                            <h5 class="question">ВЫ СПРОСИТЕ ПОЧЕМУ?</h5>
+                            <p class="question_inner">
+                                Потому что я практик и с 2007 года работаю со сложными сделками.<br>
+                                <br>
+                                Точно знаю как работать с простыми и сложными сделками, <br>
+                                состоящими из нескольких квартир с участием опеки, ипотеки, <br>
+                                нотариусов, с материнским капиталом и понимаю как защитить <br>
+                                Вас от мошенников.
+                            </p>
                         </div>
                         <div class="scroll_answer">
-                            <h5 class="answer">Вы спросите почему?</h5>
-                            <p class="answer_inner"></p>
+                            <h5 class="answer">ВОТ ЧТО Я ДЛЯ ЭТОГО СДЕЛАЮ:</h5>
+                            <ul class="answer_list">
+                                <li class="answer_point">
+                                    Исключу трату времени на бесполезные показы квартиры <br>
+                                    "покупателям" у которых даже нет денег на покупку квартиры. <br>
+                                    А иногда под видом покупателей встречаются откровенные <br>
+                                    мошенники.
+                                </li>
+                                <li class="answer_point">
+                                    Отфильтрую все рискованные предложения от покупателей <br>
+                                    связанных с занижением или завышением стоимости квартиры <br>
+                                    в договоре.
+                                </li>
+                                <li class="answer_point">
+                                    Предотвращу все манипуляции покупателей с целью "сбить" <br>
+                                    цену квартиры.
+                                </li>
+                                <li class="answer_point">
+                                    Уберу все лишние расходы, которые покупатели часто пытаются <br>
+                                    переложить на продавца, а так же исключу сбор бесполезных <br>
+                                    документов, которые не нужны для сделки.
+                                </li>
+                                <li class="answer_point">
+                                    Проконтролирую условия доступа к деньгам, которые будут указаны <br>
+                                    в договоре при взаиморасчётах в банке.
+                                </li>
+                                <li class="answer_point">
+                                    Прослежу за ходом регистрации права в Росреестре и при <br>
+                                    необходимости окажу содействие для её скорейшего завершения, <br>
+                                    чтобы Вы быстрее получили деньги за квартиру.
+                                </li>
+                            </ul>
                         </div>
+                       </div>
                     </div>
+                    <!-- 3 пункт -->
                     <div class="scroll_part">
+                        <div class="v_separator" style="height: 89%"></div>
+                        <img src="images/Dots.png" alt="" class="dots_large" style="margin-top: 40%;">
                         <img src="images/scroll_photo_3.png" alt="" class="scroll_photo">
                         <div class="rectangle"></div>
-                        <img src="images/03.png" alt="" class="number">
+                            <div class="broken_line_1" style="margin: 16.6% 0 0 44.8%;">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                            <div class="broken_line_2" style="margin: 34.8% 0 0 44.8%;">
+                               <div class="circle"></div>
+                               <div class="short_h_line"></div>
+                               <div class="v_line"></div>
+                               <div class="long_h_line"></div>
+                            </div>
+                        <div class="scroll_text">
+                            <img src="images/03.png" alt="" class="number">
                         <h3 class="scroll_headline">
                             ВЫ ПОТРАТИТЕ МИНИМУМ ЛИЧНОГО ВРЕМЕНИ <br>
                             НА ПРОДАЖУ КВАРТИРЫ
                         </h3>
                         <div class="scroll_question">
-                            <h5 class="question">Вы спросите почему?</h5>
-                            <p class="question_inner"></p>
+                            <h5 class="question">ВЫ СПРОСИТЕ ПОЧЕМУ?</h5>
+                            <p class="question_inner">
+                                Потому что я готова полностью взять на себя весь процесс работы, <br>
+                                чтобы Вам осталось только подписать договор купли-продажи <br>
+                                и получить деньги.<br>
+                                <br>
+                                Сделка будет организована так, что Вам не придётся тратить <br>
+                                лишнее время и деньги на бесполезные действия. <br>
+                            </p>
                         </div>
                         <div class="scroll_answer">
-                            <h5 class="answer">Вы спросите почему?</h5>
-                            <p class="answer_inner"></p>
+                            <h5 class="answer">ВОТ ЧТО Я ДЛЯ ЭТОГО СДЕЛАЮ:</h5>
+                            <ul class="answer_list">
+                                <li class="answer_point">
+                                    Сделаю качественные фото и видео квартиры, оплачу и размещу <br>
+                                    рекламные объявления.
+                                </li>
+                                <li class="answer_point">
+                                    Не пропущу ни одного звонка от покупателей, так как у меня для этого <br>
+                                    достаточно времени. Показы будут заранее согласованы с Вами.
+                                </li>
+                                <li class="answer_point">
+                                    При необходимости я проведу показы квартиры без вашего <br>
+                                    присутствия. Например если вы не живете в продаваемой квартире.
+                                </li>
+                                <li class="answer_point">
+                                    Организую внесение аванса, задатка и подписание предварительного <br>
+                                    договора.
+                                </li>
+                                <li class="answer_point">
+                                    Проведу необходимые переговоры с покупателем и согласую сделку <br>
+                                    с банком.
+                                </li>
+                                <li class="answer_point">
+                                    Соберу все необходимые выписки и справки, которые нужны <br>
+                                    для сделки.
+                                </li>
+                                <li class="answer_point">
+                                    Составлю договор купли-продажи и окажу содействие в регистрации <br>
+                                    права собственности. Осуществлю контроль регистрации права <br>
+                                    собственности, получение денег и передачу квартиры покупателю.
+                                </li>
+                            </ul>
                         </div>
+                       </div>
                     </div>
-                    <div class="h_line"></div>
                 </div>
             </div>
         </div>
+        <!-- 4-й блок -->
+        <div class="container">
+            <img src="images/Dots.png" alt="" class="dots">
+            <h2 class="service">
+                ОТЗЫВЫ <span class="red_color">О РЕЗУЛЬТАТАХ </span> <br>
+                СОТРУДНИЧЕСТВА
+            </h2>
+            <div class="reviews">
+
+                <div class="video_reviews">
+                    <div class="row">
+                        <iframe style="margin-left: 0; margin-top: 0;" class="video_review firstline" src="https://www.youtube.com/embed/O9VuI5xCbPg"></iframe>
+                        <iframe style="margin-right: 0; margin-top: 0;" class="video_review firstline" src="https://www.youtube.com/embed/ymmFBAqL-gs"></iframe>
+                    </div>
+                    <div class="row">
+                        <iframe style="margin-left: 0;" class="video_review secondline" src="https://www.youtube.com/embed/5yY8Cm7uB14"></iframe>
+                        <iframe class="video_review secondline" src="https://www.youtube.com/embed/9xpIIG-pVvE"></iframe>
+                        <iframe class="video_review secondline" src="https://www.youtube.com/embed/ZVBqZQYDFcI"></iframe>
+                        <iframe style="margin-right: 0;" class="video_review secondline" src="https://www.youtube.com/embed/JfDfH8HTOgk"></iframe>
+                    </div>
+
+                    <div class="slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/comment1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/comment2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/comment3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/comment4.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/comment5.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/comment6.png" alt="">
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- 5 блок -->
+        <div class="container">
+            <img src="images/Dots.png" alt="" class="dots">
+            <h2 class="service">
+                <span class="red_color">преимущества</span> сотрудничества <br>
+                со мной в отличии от конкурентов
+            </h2>
+            <div class="qualities">
+                <div class="quality">
+                    <img class="icon" src="images/icon1.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">опыт работы</h3>
+                        <p class="description_inner">
+                            С 2007 год начало карьеры <br>
+                            С 2011 года самостоятельное <br>
+                            ведение сделок. <br>
+                            С 2014 обучение агентов.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality">
+                    <img class="icon" src="images/icon2.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">Поток покупателей</h3>
+                        <p class="description_inner">
+                            Я являюсь партнёром ведущих банков <br>
+                            и страховых компаний, благодаря которым <br>
+                            получаю дополнительный поток покупателей.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality">
+                    <img class="icon" src="images/icon3.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">экспертность</h3>
+                        <p class="description_inner">
+                            Владею экспертными знаниями <br>
+                            в области продаж, юридических вопросах, <br>
+                            маркетинге, психологии, налогообложении.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality" style="margin-top: 120px;">
+                    <img class="icon" src="images/icon4.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">реклама</h3>
+                        <p class="description_inner">
+                            Создаю не просто красивые фото, <br>
+                            а именно продающие и размещаю <br>
+                            рекламу во всех популярных <br>
+                            ресурсах по продаже недвижимости.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality" style="margin-top: 120px;">
+                    <img class="icon" src="images/icon5.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">срок продажи</h3>
+                        <p class="description_inner">
+                            Могу назвать ориентировочные сроки <br>
+                            продаж недвижимости, чтобы вы могли <br>
+                            планировать дальнейшие действия.
+                        </p>
+                    </div>
+                </div>
+                <div class="quality" style="margin-top: 120px;">
+                    <img class="icon" src="images/icon6.png" alt="">
+                    <div class="description">
+                        <h3 class="description_headline">прозрачность</h3>
+                        <p class="description_inner">
+                            Гарантирую прозрачность всех процессов <br>
+                            и работаю только по договору <br>
+                            с фиксированной стоимостью услуг.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="videos">
+                <div class="row">
+                    <iframe class="video" src="https://www.youtube.com/embed/YnSVtPcL4N8"></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/fPZbNXNHBT0"></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- 6 блок -->
+        <div class="container">
+            <img src="images/Dots.png" alt="" class="dots">
+            <h2 class="service">
+                <span class="red_color">мой рейтинг</span> НА САЙТАХ <br>
+                ПО НЕДВИЖИМОСТИ
+            </h2>
+            <div class="figure">
+                <div class="lines">
+                    <div class="figure_line"></div>
+                    <div class="figure_line"></div>
+                    <div class="figure_line"></div>
+                </div>
+                <div class="figure_dots">
+                    <img src="images/Dots.png" alt=""> <br>
+                    <img src="images/Dots.png" alt="">
+                </div>
+                <div class="figure_cube"></div>
+            </div>
+            <div class="rating_photo">
+                <img class="rating" src="images/rating.png" alt="">
+            </div>
+        </div>
+        <!-- 7 блок -->
+        <div class="container">
+            <img src="images/Dots.png" alt="" class="dots">
+            <h2 class="service">
+                <span class="red_color">дополнительные</span> <br>
+                услуги
+            </h2>
+            <div class="addition_dots_wrapper">
+                <img class="addition_dots" src="images/Dots.png" alt="">
+            </div>
+            <div class="addition_rectangle"></div>
+
+            <div class="addition_figure">
+                <div class="figure_component" style="margin-top: 0">
+                    <div class="addition_circle"></div>
+                <div class="addition_line"></div>
+                <img class="target" src="images/circle.png" alt="">
+                </div>
+                <div class="figure_component">
+                    <div class="addition_circle"></div>
+                <div class="addition_line"></div>
+                <img class="target" src="images/circle.png" alt="">
+                </div>
+                <div class="figure_component">
+                    <div class="addition_circle"></div>
+                <div class="addition_line"></div>
+                <img class="target" src="images/circle.png" alt="">
+                </div>
+                <div class="figure_component">
+                    <div class="addition_circle"></div>
+                <div class="addition_line"></div>
+                <img class="target" src="images/circle.png" alt="">
+                </div>
+                <div class="figure_component">
+                    <div class="addition_circle"></div>
+                <div class="addition_line"></div>
+                <img class="target" src="images/circle.png" alt="">
+                </div>
+            </div>
+
+            <div class="addition_content">
+                <div class="addition_image_wrapper">
+                <img class="addition_image" src="images/addition.png" alt="">
+            </div>
+            <div class="addition_text_wrapper">
+                <p class="addition_text" style="margin-top: 0">Купить квартиру <br> под ключ</p>
+                <p class="addition_text">Юридическая проверка <br> квартир и их собственников</p>
+                <p class="addition_text">Подача документов <br> на одобрение ипотеки</p>
+                <p class="addition_text">Страхование <br> недвижимости</p>
+                <p class="addition_text">Поиск арендатора <br> для сдачи квартиру в наём</p>
+            </div>
+            </div>
+            <div class="statistics">
+                <div class="statistics_inner" style="margin-left: 0">
+                    <p class="statistics_number">1764</p>
+                    <p class="statistics_text">
+                        Довольных <br>
+                        клиентов
+                    </p>
+                </div>
+                <div class="statistics_line"></div>
+                <div class="statistics_inner">
+                    <p class="statistics_number">588</p>
+                    <p class="statistics_text">
+                        УСПЕШНЫХ <br>
+                        СДЕЛОК
+                    </p>
+                </div>
+                <div class="statistics_line"></div>
+                <div class="statistics_inner">
+                    <p class="statistics_number">336</p>
+                    <p class="statistics_text">
+                        Проданных <br>
+                        квартир
+                    </p>
+                </div>
+                <div class="statistics_line"></div>
+                <div class="statistics_inner" style="margin-right: 0">
+                    <p class="statistics_number">252</p>
+                    <p class="statistics_text">
+                        Купленных <br>
+                        квартир
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 7 блок -->
+        <div class="container">
+            <img src="images/Dots.png" alt="" class="dots">
+            <h2 class="service">
+                <span class="red_color">МОИ КОНТАКТЫ</span> <br>
+                ДЛЯ СВЯЗИ И КОНСУЛЬТАЦИЙ
+            </h2>
+            <div class="consult">
+                <div class="map">
+                    <img class="map_image" src="images/map.png" alt="">
+                </div>
+                <div class="consult_contacts">
+                    <h3 class="consult_headline">КОНТАКТЫ</h3>
+                    <p class="consult_text">
+                        <span class="consult_point">Адрес:</span> Москва, ул. Одесская, д. 14к5 <br>
+                        <span class="consult_point">Телефон:</span> 8 (495) 542-01-53 , 8 (965) 293-72-72 <br>
+                        <span class="consult_point">Почта:</span> 8965293727о@gmail.com <br>
+                    </p>
+                    <div class="consult_form">
+                        <form action="#" id="form" class="form_body">
+                            <div class="form_item">
+                                <label for="formName" class="form_label"></label>
+                                <input id="formName" placeholder="Ваше имя" type="text" name="name" class="form_input">
+                            </div>
+                            <div class="form_item">
+                                <label for="formTel" class="form_label"></label>
+                                <input id="formTel" placeholder="Ваш номер телефона" type="tel" name="tel" class="form_input">
+                            </div>
+                            <div class="form_item">
+                                <div class="checkbox">
+                                    <input id="formAgreement" type="checkbox" name="checkbox" class="checkbox_input">
+                                    <label for="formAgreement" class="checkbox_label">Даю согласие на обработку персональных данных</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="form_button">
+                                ОТПРАВИТЬ ЗАЯВКУ
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="first_column">
+                <h1 class="footer_headline">ольга селимова</h1>
+            <p class="footer_text">Индивидуальный предпрениматель</p>
+            <div class="footer_tel">
+                <p class="footer_tel_inner">+7 (495) 542 - 01 - 53</p>
+                <p class="footer_tel_inner">+7 (965) 293 - 72 - 72</p>
+            </div>
+            <a href="" class="privacy_policy">Политика конфиденциальности</a>
+            </div>
+            <div class="second_column">
+                <ul class="footer_nav">
+                    <li class="footer_nav_inner">
+                        Преимущества
+                    </li>
+                    <li class="footer_nav_inner">
+                        Услуги
+                    </li>
+                    <li class="footer_nav_inner">
+                        Отзывы
+                    </li>
+                    <li class="footer_nav_inner">
+                        Рейтинг
+                    </li>
+                    <li class="footer_nav_inner">
+                        Контакты
+                    </li>
+                </ul>
+            </div>
+            <div class="third_column">
+                <img src="images/inst.png" alt="" class="footer_logo">
+                <img src="images/vk.png" alt="" class="footer_logo">
+                <img src="images/facebook.png" alt="" class="footer_logo">
+                <img src="images/ok.png" alt="" class="footer_logo">
+                <img src="images/dzen.png" alt="" class="footer_logo">
+                <img src="images/youtube.png" alt="" class="footer_logo">
+                <img class="footer_dots" src="images/Dots.png" alt="">
+            </div>
+        </footer>
     </div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
